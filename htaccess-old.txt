@@ -1,0 +1,11 @@
+AuthType Basic
+AuthName "/public_html/petmemories/"
+AuthUserFile "/home/zerodrop/.htpasswds/public_html/petmemories/passwd"
+require valid-user
+
+Options -MultiViews
+RewriteEngine On
+
+RewriteRule ^obituary-([^/]*)?$ /obituaries/index.php?pet=$1 [L,QSA,NC]
+
+RewriteRule ^catalog$ http://peturncatalog.com/catalog/index.php?distributor_id=1155pmcs [R=301,L]

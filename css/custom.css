@@ -1,0 +1,600 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,700,400,100);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script|Parisienne);
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #4c4c4c;
+	line-height: 30px;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 56px;
+	margin-top: 0px;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+}
+a {color: #d9851b;}
+a:hover {text-decoration: none; color: #b06302;}
+.tcenter { text-align: center; }
+.fleft { float: left; }
+.fright { float: right; }
+.fclear { clear: both; }
+.mtop { margin-top: 30px !important; }
+.navbar-default {
+	background-color: #621416;
+	margin-bottom: 0px;
+	border-color: #621416;
+	border-radius: 0px;
+	position: absolute;
+	top: 60px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-weight: 400;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ceab7b;
+	font-weight: 400;
+}
+.navbar-brand {
+	position: relative;
+	top: -50px;
+}
+.navbar-nav {
+	padding: 7px 0;
+	font-weight: 200;
+	letter-spacing: .8px;
+}
+.homePageTitle {
+	text-align: right;
+	margin-top: 290px !important;
+	color: #621416;
+}
+.homePageTitle h1 {
+	font-size: 61px;
+	font-family: 'Dancing Script', cursive;
+}
+.sections-bg {
+	padding: 50px 0;
+	/*background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	background-position: top center;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;*/
+	
+}
+#home {
+	background-image: url('../../img/sections-bg.jpg');
+	background-attachment: fixed;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	background-position: top center;
+}
+@media (min-width: 992px) {
+  #home {
+	background-image: url('../../img/sections-bg.jpg');
+	background-attachment: fixed;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	background-position: top center;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+  }
+}
+@media (min-width: 1200px) {
+  #home {
+	background-image: url('../../img/sections-bg.jpg');
+	background-attachment: fixed;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	background-position: top center;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+  }
+}
+
+#ourservices {
+	background-image: url('../../img/sections-ourservices.jpg');
+	background-position: top center;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+}
+#urns {
+	background-image: url('../../img/sections-urns.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	background-position: top center;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+}
+#obituaries {
+}
+#testimonials {
+	background-image: url('../../img/sections-testimonials.jpg');
+}
+#faqs {
+	background-image: url('../../img/sections-urns.jpg');
+	padding: 175px 0 50px 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	background-position: top center;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+}
+#facility {
+	background-image: url('../../img/sections-facility.jpg');
+	padding: 175px 0 75px 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	background-position: top center;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+}
+#contactus {
+}
+.urnstyle-a, .urnstyle-b, .urnstyle-c {
+	max-width: 273px;
+	background-color: #fff;
+	border: 1px solid #898989;
+	margin: 40px auto;
+}
+.urnstyle-a {
+}
+.urnstyle-b {
+}
+.urnstyle-c {
+}
+.urn-letter {
+	width: 50px;
+	height: 50px;
+	background: #621416;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	color: #fff;
+	font-size: 56px;
+	text-align: center;
+	font-weight: 500;
+	top: -18px;
+	left: 97px;
+	position: relative;
+	padding: 5px 20px;
+}
+
+.urnstyle-a p, .urnstyle-b p, .urnstyle-c p {
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+ul.ourservices li span {position: relative; top: 12px;}
+ul.ourservices li img {float: left; margin-right: 20px;}
+ul.ourservices li {display: block; margin-bottom: 45px; line-height: 22px;}
+
+/*ul li.call:before {
+	content: url(/img/icon-call.png);
+	position: relative;
+	top: -13px;
+	margin-right: 15px;
+}
+ul li.clock:before {
+	content: url(/img/icon-clock.png);
+}
+ul li.private:before {
+	content: url(/img/icon-private.png);
+}
+ul li.urn:before {
+	content: url(/img/icon-urn.png);
+}
+ul li.people:before {
+	content: url(/img/icon-casket.png);
+}*/
+
+footer {
+	background-color: #621416;
+	padding: 30px 0;
+	color: #fff;
+	font-weight: 100;
+}
+
+footer ul {margin-top: 15px;}
+footer ul li a{color: #fff;}
+footer ul li a:hover{
+	color: #D1D1D1;
+	text-decoration: none;
+}
+
+.carousel-control.left {background-image: none;}
+.carousel-control.right {background-image: none;}
+.address {background-color: #ebebeb; border: 1px solid #d7d7d7; border-radius: 4px; padding: 10px 20px; margin-top: 20px;}
+.address h4 {color: #621416; font-weight: 600;}
+.wearelocated {font-size: 15px; line-height: 22px; margin-top: 20px;}
+#gmap iframe, #gmap object, #gmap embed { width: 100%; }
+.list-inline>li {vertical-align: top;}
+.back-to-top {
+	position: fixed;
+	bottom: 159px;
+	text-decoration: none;
+	background-color: #c2c2c2;
+	text-transform:uppercase;
+	padding: 6px;
+	z-index:1001;
+	right: 20px;
+	display: none;
+	}
+.back-to-top:hover {background-color: #B3B3B3;}
+.formPromo {height: 330px;}
+.formPromo h2 {font-size: 36px;}
+.marginbtm30 {margin-bottom: 30px;}
+.marginTop40 {margin-top: 40px;}
+.width100 {width: 100%;}
+
+.navbar-filler { height: 125px; }
+.obits_body { background-color: #e3dfd3; z-index: 1; }
+#active_listing { margin: 35px auto; }
+#active_listing .col-side { width: 280px; }
+#active_listing .col-side img { width: 280px; border-radius: 4px; margin-bottom: 10px; }
+#active_listing .col-main { margin: 0px 30px; width: 510px; font-size: 18px; }
+#active_listing h1 { color: #621416; font-family: 'Dancing Script', cursive; font-size: 51px; }
+#active_listing h3 { font-size: 22px; font-weight: 700; margin-top: 0; }
+#all_listings { margin-bottom: 50px; }
+.listing_header { font-family: 'Raleway', sans-serif; font-weight: 100; font-size: 56px; height: 70px; padding: 0px 40px; margin: auto; line-height: 70px; background: #e3dfd3; }
+.double-stripe { height: 70px; background-image: url(../img/double-stripe.png); text-align: center; margin-top: 20px; }
+.listing-preview {
+	width: 249px;
+	margin: 30px 0px 10px 0px;
+	cursor: pointer;
+	text-align: center;
+	background-color: #f0ede5;
+	padding: 20px 0px;
+	border-radius: 4px;
+	border: 1px solid #9C9C9C;
+}
+.listing-preview:hover { background: #e9e7e3; }
+.img-container { height: 50px; width: 50px; border: 1px solid #888888; border-radius: 4px; background: #d7d2c1; }
+.img-container img { height: 50px; width: 50px; border-radius: 4px; margin: -1px; }
+.listing-main { display: inline-block; }
+.listing-detail { margin-left: 10px; text-align: left; }
+.listing-name { font-size: 25px; line-height: 27px; color: #621416; text-transform: uppercase; margin-top: -4px; margin-bottom: 5px; }
+.listing-link { font-size: 15px; line-height: 17px; color: #888888; margin-top: 5px; cursor: pointer; }
+.listing-link:hover { color: #621416; }
+.listing-space { width: 48px; height: 1px; }
+#create_listing form { margin: 35px auto; }
+#create_listing form label { font-size: 22px; font-weight: 400; line-height: 22px; margin-right: 20px; }
+#create_listing form input { height: 40px; width: 420px; padding: 5px; background: #ffffff; border: 1px solid #cccccc; border-radius: 4px; }
+#create_listing form input[type="submit"] { background: #229a5c; border: 0; margin-top: 0; width: 200px; font-size: 15px;}
+#create_listing form input#cancel { width: 200px; color: #ffffff; background: #666666; border: 0; font-size: 15px; }
+#create_listing form textarea { width: 420px; height: 318px; font-size: 15px; line-height: 18px; padding: 5px; background: #ffffff; border: 1px solid #cccccc; border-radius: 4px; }
+#obit_preview { width: 195px; margin-right: 30px; line-height: 38px; font-size: 18px; font-weight: 700; text-align: center; background: #f79506; border: 1px solid #d58107; border-radius: 8px; color: #ffffff; cursor: pointer; }
+.form_left { width: 420px; float: left; }
+.form_right { width: 620px; float: right; }
+.obit_button { background: #f79506; border: 1px solid #d58107; border-radius: 8px; color: #ffffff; width: 680px; height: 40px; line-height: 40px; font-size: 18px; font-weight: 700; text-align: center; cursor: pointer; margin: 30px auto 0px auto; }
+.obit_button:hover, .customfile-upload:hover, #obit_preview:hover, #create_listing form input[type="submit"]:hover { opacity: .7; }
+.obit-btn {background-color: #621416; border: none; padding: 8px 30px; font-size: 18px;}
+.obit-btn-lrg {background-color: #f79506; border: none; font-size: 18px; padding: 8px 80px; margin-top: 40px; width: 89%; margin-bottom: 20px;}
+.obit-btn:hover {
+	background-color: #410D0E;
+}
+.obit-btn-lrg:hover {
+	background-color: #E58A05;
+}
+input { height: 42px; }
+a { cursor: pointer; }
+.button { cursor: pointer; text-align: center; background: #E58A05; border: 0; }
+.button:hover { background: #E58A05; border: 0; opacity: .8; color: #fff; }
+#body_fade.active { z-index: 1001; position: fixed; top: 0; height:100%; width: 100%; opacity: .8; background-color: #afafaf; }
+.popup { z-index: 1002; position: fixed; top: 170px; background-color: #eff4f9; padding: 40px; color: #414042; font-size: 15px; }
+.popup_close { z-index: 1011; position: relative; top: -20px; right: -20px; margin-left: -30px; }
+.customfile-container {}
+.customfile-container label:first-child { padding: 0; }
+.customfile-wrap { position: relative; padding: 0; }
+.customfile-filename, .customfile-upload { margin: 0; padding: 0; vertical-align: top; }
+.customfile-filename { height: 28px !important; width: 350px !important; }
+.customfile-filename:focus { outline: none; }
+.customfile-upload { width: 120px; line-height: 38px; color: #ffffff; border-radius: 4px; }
+.customfile-upload::-moz-focus-inner { padding: 0; border: 0; }
+.obit-background { background-image: url(../img/obit_background.jpg); height: 557px; background-repeat: no-repeat; background-position: center center; background-attachment: scroll; background-size: cover; }
+.search_form-container { width: 913px; height: 273px; padding: 15px 40px; background: rgba(255,255,255,.8); border: 2px solid #621416; border-radius: 4px; margin: 216px auto 72px auto; }
+.search_form-container .title { font-size: 22px; line-height: 40px; border-bottom: 2px solid #414042; margin-bottom: 35px; }
+#search_form {}
+#search_form label { font-size: 15px; font-weight: 400; line-height: 20px; margin: 20px 20px 20px 0px; }
+#search_form input[type="text"] { width: 396px; line-height: 30px; padding: 5px 15px; background: #ffffff; border: 1px solid #636363; border-radius: 4px; }
+#search_form .button { width: 230px; margin-right: 25px; }
+#search_form input[type="radio"] { display: none; }
+label.radio:before { content: ""; display: inline-block; width: 20px; height: 20px; border: 2px solid #636363; border-radius: 4px; margin-right: 10px; vertical-align: text-top; cursor: pointer; }
+input[type=radio]:checked + label:before { border-color: #621416; background: #90b280; }
+.obit-create_bg { width: 575px; height: 558px; padding: 40px; background-image: url(../img/obit_create-background.jpg); margin: 50px auto; color: #ffffff; text-align: center; }
+.obit-create_bg .title { font-size: 37px; line-height: 50px; text-shadow: 1px 1px 3px #000; margin-top:  75px; }
+.obit-create_bg p { font-weight: 400; text-shadow: 1px 1px 3px #000; margin: 15px auto; font-size: 21px; line-height: 32px; }
+.obit-create_bg .button { width: 370px; margin: 40px auto; }
+.obit-listings { width: 520px; margin: 50px auto; }
+.obit-listings .title { font-size: 22px; line-height: 60px; color: #ffffff; background: #621416; text-align: center; margin-bottom: 15px; }
+.obit-listings_row { font-weight: 400; font-size: 15px; line-height: 46px; border-bottom: 1px solid #b7b7b7; cursor: pointer; }
+.obit-listings_row:hover { background: #90b280; }
+.obit-listings_row .col1 { width: 260px; float: left; margin-left: 15px; }
+.obit-listings_row .col2 { width: 230px; float: right; }
+.obit-listings .page_row { margin-top: 18px; }
+.obit-listings .page_btn { width: 45px; height: 40px; text-align: center; }
+.obit-listings .button { width: 45px; }
+.obit-listings .page_info { width: 370px; margin-left: 30px; line-height: 40px; font-weight: 400; font-size: 15px; text-align: center; }
+.obit-remember, .obit-create, .obit-mine {}
+.obit-remember a { color: #621416; cursor: pointer; }
+.obit-remember a:hover { color: #90b280; }
+.obit-images { margin: 50px auto; width: 301px; }
+.img_profile { width: 301px; }
+.img_small { width: 53px; margin-top: 15px; }
+.img_swap.active { opacity: .5; }
+.img_space { margin-left: 9px; }
+.obit-desc { margin: 50px 40px; width: 439px; }
+.obit-desc .title { font-family: 'Pinyon Script', cursive; font-size: 54px; line-height: 60px; color: #621416; }
+.obit-desc p { font-size: 25px; font-weight: 200; line-height: 42.5px; margin-top: 30px; }
+.obit-links { width: 320px; margin-top: 30px; }
+.obit-links_link { margin-top: 20px; padding-left: 68px; line-height: 48px; font-size: 23px; color: #621416; cursor: pointer; }
+.obit-links_link.icon-logout { z-index: 11; position: relative; float: right; right: 15px; top: -53px; margin: 0; margin-bottom: -48px; padding-left: 52px; }
+.obit-links_link:hover { opacity: .7; }
+.obit-links_link span { margin-left: 20px; }
+.title .obit-links_link { margin: 0; }
+.icon-condolence { background-image: url(../img/icon-condolence.png); background-repeat: no-repeat; }
+.icon-flowers { background-image: url(../img/icon-flowers.png); background-repeat: no-repeat; }
+.icon-list { background-image: url(../img/icon-list.png); background-repeat: no-repeat; }
+.icon-logout { background-image: url(../img/icon-logout.png); background-repeat: no-repeat; background-position: 6px 6px; }
+.icon-return { background-image: url(../img/icon-return.png); background-repeat: no-repeat; }
+.obit-info { width: 770px; margin-bottom: 50px; }
+.obit-condolences { width: 340px; background: #ffffff; border: 1px solid #d1d1c2; border-radius: 4px; padding: 20px; margin-bottom: 50px; }
+.obit-condolence-items { height: 813px; overflow: auto; margin-top: 20px; }
+.obit-condolence_item { padding: 15px 20px; margin-bottom: 20px; margin-right: 10px; font-size: 15px; line-height: 30px; background: #e6e7e8; border: 1px solid #afafaf; border-radius: 4px; }
+.obit-condolence_item div { font-size: 12px; line-height: 15px; }
+.obit-info .title, .obit-condolences .title { font-size: 20px; padding-bottom: 5px; border-bottom: 2px solid #414042; }
+.obit-lifespan { font-size: 20px; font-weight: 400; background: #ffffff; border: 1px solid #d1d1c2; border-radius: 4px; padding: 20px; }
+.obit-lifespan span { font-weight: 400; margin-right: 15px; }
+.obit-service, .obit-visitation { width: 370px; background: #ffffff; border: 1px solid #d1d1c2; border-radius: 4px; padding: 20px; margin: 30px auto; font-size: 15px; line-height: 30px; }
+.obit-service .col1, .obit-visitation .col1 { width: 75px; margin-top: 20px; margin-right: 20px; }
+.obit-service .col2, .obit-visitation .col2 { width: 233px; margin-top: 20px; }
+.obit-bio { background: #ffffff; border: 1px solid #d1d1c2; border-radius: 4px; padding: 20px; }
+.obit-bio_scroll { margin-top: 20px; height: 340px; overflow: auto; }
+.obit-bio p { font-weight: 400; font-size: 15px; line-height: 30px; margin-bottom: 20px; margin-right: 20px; }
+.obit-create .title, .obit-mine .title { font-size: 40px; line-height: 48px; margin: 26px auto; }
+.obit-create .col1 { width: 420px; }
+.obit-create .col2 { width: 660px; }
+.obit-create .col3 { width: 540px; margin-bottom: 20px; }
+.obit-create .col3 .title { font-size: 32px; line-height: 38px; border-bottom: 2px solid #414042; margin: 0px auto 30px auto; }
+.obit-mine .links {}
+.obit-mine .links a { color: #621416; }
+.obit-mine .button { margin: 40px auto; }
+form#create { font-size: 15px; }
+form#create label { width: 100px; font-weight: 400; line-height: 40px; }
+form#create .col3 label { width: 160px; }
+form#create label.inline { width: auto !important; }
+form#create input {	width: 320px; background: #ffffff; border: 1px solid #868686; border-radius: 4px; padding: 5px 10px; line-height: 30px; margin-bottom: 30px; }
+form#create .col3 input { width: 380px; }
+form#create .col3 input.small { width: 175px; font-size: 100%; }
+form#create input.time { width: 50px; }
+form#create input[type="radio"] { display: none; }
+form#create label.radio { margin: 2px; }
+form#create label.radio:before { border: 2px solid #414042; border-radius: 4px; margin-left: 15px; }
+form#create input[type=radio]:checked + label:before { border-color: #414042; background: #868686; }
+form#create textarea { width: calc(100% - 100px); height: 127px; padding: 10px; background: #ffffff; border: 1px solid #636363; border-radius: 4px; vertical-align: top; margin-bottom: 30px; line-height: 20px; }
+form#create #bio { height: 300px; }
+form#create input#submit { font-size: 14px; color: #ffffff; text-shadow: 2px 2px #333333; background: #621416; border: 1px solid #621416; border-radius: 4px; }
+#intro-comment { margin: -30px 2px 20px 0px; }
+#listing_results .button { width: 100%; }
+#login_form { padding: 40px 0px; }
+#login_form .col1 { width: 300px; /*margin-right: 50px;*/ }
+#login_form .col2 { width: 630px; }
+#login_form .col2 .pull-left, #login_form .col2 .pull-right { width: 300px; }
+#login_form .title { color: #414042; font-size: 22px; margin-bottom: 30px; }
+#login_form label { width: 275px; font-weight: 600; line-height: 40px; margin-bottom: 15px; }
+#login_form label a { color: #c9870e; }
+#login_form input { width: 300px; height: 42px; background: #ffffff; border: 1px solid #636363; border-radius: 4px; padding: 5px 15px; line-height: 30px; margin-bottom: 15px; }
+#login_form input.btn { background: #E58A05; border: 0; }
+#login_form input[type="checkbox"] { width: 10px; height: 10px; margin: 0 10px 0 0; }
+#popup_form-delete { width: 380px; left: calc(50% - 190px); }
+#popup_form-delete .js_delete { margin: 15px -20px -15px 0px; }
+.folder { height: 151px; width: 159px; overflow: hidden; background-image: url(../img/file_background.png); background-color: #ebebeb; border: 1px solid #898989; border-radius: 4px; background-position: 21px 21px; background-repeat: no-repeat; }
+.folder.small { height: 114px; width: 120px; background-size: 87px; background-position: 16px 16px; }
+.folder_img {}
+.folder_img img { position: relative; }
+.folder_detail { width: 225px; margin-left: 25px; }
+.folders-supporting .folder_detail { width: 120px; margin: 20px 0 0 0; }
+.folder_detail .title, .folders-supporting .title { font-size: 22px; line-height: 25px; margin: 0; }
+.folders-supporting .title { margin: 45px 0 20px 0; }
+.folder_detail p { font-size: 15px; line-height: 19px; height: 76px; }
+.folders-supporting .spacing { width: 60px; height: 1px; }
+.clear_img { z-index: 101; position: relative; font-weight: 700; width: 20px; height: 24px; line-height: 23px; margin: -1px -1px -26px 0px; text-align: center; border-radius: 0px 4px; cursor: pointer; }
+.listing_box { width: 350px; margin-right: 30px; margin-bottom: 40px;}
+.listing_box .folder_detail { width: 205px; font-size: 15px; line-height: 22px; }
+.listing_box .title { font-size: 20px; line-height: 23px; margin: 0; }
+.listing_box .links { margin-top: 28px; }
+.comment { font-style: italic; font-size: 13px; margin-right: 25px; text-align: right; }
+.pagescroll { height: 424px; overflow: hidden; }
+.pagescroll-container { position: relative; }
+.pagescroll-page { float: left; width: 520px; }
+#listing_results .pagescroll { height: 369px; }
+.link_client-recover, .link_client-recover:hover { color: #621416; }
+.input-width { width: 300px; margin-top: -15px; margin-bottom: 15px; font-weight: 700; }
+.button_row { margin-top: 40px; }
+.obit-profile { /*width: 85%;*/max-height: 169px; min-height: 168px; }
+.obit-preview-copy { line-height: 22px; }
+.obit-name { font-size: 30px; }
+.addthis_toolbox { margin-bottom: 20px; }
+.at15t,.at16nc,.at300bs { border-radius: 4px; }
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m { padding: 0px 5px 0px 0px !important; }
+
+.testimonial-copy {font-family: 'Dancing Script', cursive; width: 600px; font-size: 25px; line-height: 45px; margin: 0 auto;}
+.testimonial-copy span {font-family: 'Pinyon Script', cursive; font-size: 38px;}
+
+#accordion {margin-top: 30px; margin-bottom: 20px;}
+.ui-state-default .ui-icon {
+	background-image: url(../img/icon-plus.png);
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+	background-image: url(../img/icon-plus-hover.png);
+}
+.ui-state-active .ui-icon {
+	background-image: url(../img/icon-plus-active.png);
+}
+.ui-state-highlight .ui-icon {
+	background-image: url(images/ui-icons_167b40_256x240.png);
+}
+
+
+/* Template-specific stuff
+ *
+ * Customizations just for the template; these are not necessary for anything
+ * with disabling the responsiveness.
+ */
+
+/* Account for fixed navbar */
+body {
+  min-width: 970px;
+  /*padding-top: 70px;
+  padding-bottom: 30px;*/
+}
+
+/* Finesse the page header spacing */
+.page-header {
+  margin-bottom: 30px;
+}
+.page-header .lead {
+  margin-bottom: 10px;
+}
+
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+.container {
+  width: 1170px;
+  max-width: none !important;
+}
+
+/* Demonstrate the grids */
+.col-xs-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
